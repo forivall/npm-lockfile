@@ -8,6 +8,8 @@ const test = require('tape');
 
 const lockPath = path.join(__dirname, '../package-lock.json');
 
+const normalizeLockJson = (json) => json.replace(/,\s*"requires": \{}/g, '');
+
 test('simple test', (t) => {
 	execSync(`"${path.join(__dirname, '../bin.js')}" -o package-lock.json --date=now`);
 	const lockPackage = readFileSync(lockPath, { encoding: 'utf-8' });
@@ -16,6 +18,10 @@ test('simple test', (t) => {
 	const lockActual = readFileSync(lockPath, { encoding: 'utf-8' });
 	t.ok(lockActual, 'lockfile produced by npm');
 	unlinkSync(lockPath);
-	t.deepEqual(JSON.parse(lockActual), JSON.parse(lockPackage), 'actual =~= package');
+	t.deepEqual(
+		JSON.parse(normalizeLockJson(lockActual)),
+		JSON.parse(normalizeLockJson(lockPackage)),
+		'actual =~= package',
+	);
 	t.end();
 });

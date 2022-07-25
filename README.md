@@ -1,4 +1,4 @@
-# npm-lockfile <sup>[![Version Badge][2]][1]</sup>
+# @forivall/npm-lockfile <sup>[![Version Badge][2]][1]</sup>
 
 [![github actions][actions-image]][actions-url]
 [![coverage][codecov-image]][codecov-url]
@@ -11,18 +11,18 @@
 
 Safely generate an npm lockfile and output it to the filename of your choice.
 
-[1]: https://npmjs.org/package/npm-lockfile
-[2]: https://versionbadg.es/ljharb/npm-lockfile.svg
-[5]: https://david-dm.org/ljharb/npm-lockfile.svg
-[6]: https://david-dm.org/ljharb/npm-lockfile
-[7]: https://david-dm.org/ljharb/npm-lockfile/dev-status.svg
-[8]: https://david-dm.org/ljharb/npm-lockfile#info=devDependencies
-[11]: https://nodei.co/npm/npm-lockfile.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/npm-lockfile.svg
+[1]: https://npmjs.org/package/@forivall/npm-lockfile
+[2]: https://versionbadg.es/forivall/npm-lockfile.svg
+[5]: https://david-dm.org/forivall/npm-lockfile.svg
+[6]: https://david-dm.org/forivall/npm-lockfile
+[7]: https://david-dm.org/forivall/npm-lockfile/dev-status.svg
+[8]: https://david-dm.org/forivall/npm-lockfile#info=devDependencies
+[11]: https://nodei.co/npm/@forivall/npm-lockfile.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/@forivall/npm-lockfile.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/npm-lockfile.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=npm-lockfile
-[codecov-image]: https://codecov.io/gh/ljharb/npm-lockfile/branch/main/graphs/badge.svg
-[codecov-url]: https://app.codecov.io/gh/ljharb/npm-lockfile/
-[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/npm-lockfile
-[actions-url]: https://github.com/ljharb/npm-lockfile/actions
+[downloads-image]: https://img.shields.io/npm/dm/@forivall/npm-lockfile.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=@forivall/npm-lockfile
+[codecov-image]: https://codecov.io/gh/forivall/npm-lockfile/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/forivall/npm-lockfile/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/forivall/npm-lockfile
+[actions-url]: https://github.com/forivall/npm-lockfile/actions
